@@ -17,10 +17,15 @@ class Past extends Component {
   getTimeZoneString = (timeZone) => {
     switch (timeZone) {
       case 'AKST': return 'America/Anchorage';
+      case 'AKDT': return 'America/Anchorage';
       case 'PST': return  'America/Los_Angeles';
+      case 'PDT': return  'America/Los_Angeles';
       case 'MST': return 'America/Boise';
+      case 'MDT': return 'America/Boise';
       case 'CST': return 'America/Chicago';
-      case 'EST': return 'America/New_York'
+      case 'CDT': return 'America/Chicago';
+      case 'EST': return 'America/New_York';
+      case 'EDT': return 'America/New_York';
     }
   }
   
