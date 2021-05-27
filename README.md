@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jzeng88/api-q/main/public/logo192.png?token=AES3IAQPN2GG77VI7O6NGPDAV7FAY" />
+  <img src="./public/logo192.png?raw=true" />
 </p>
 
 https://www.api-q.com
